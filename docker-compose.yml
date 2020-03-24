@@ -1,0 +1,18 @@
+version: '3.2'
+#This file will setup a docker network named emerse (or what ever directory it is run from) it will then
+services:
+  ui:
+    image: poqianggo/docker_ui:latest
+  proxy:
+    # this is the reverse proxy to all the micro services.
+    # image: nexus1.umms.med.umich.edu:18079/survey_proxy
+    image: poqianggo/docker_proxy:latest
+    ports:
+      - 80:80     #Voting ui
+  geth:
+    image: poqianggo/docker_geth:latest
+    ports:
+      - 3020:3020
+      - 8545:8545
+      - 30303:30303
+      - 7420:7420
