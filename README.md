@@ -1,7 +1,7 @@
 # AVDapp
 Audio / Video Files Decentralized Application
 
-## Create Docker Client
+## Setup Docker Client
 ### Linux / MacOS
 * Download and start
 ```
@@ -27,3 +27,9 @@ startDockerLocal.bat
 cleanup.bat
 ```
 
+## Launch in browser (only support chrome)
+1. Open chrome browser
+2. Go to location "chrome://flags"
+Screen Shot 2020-04-06 at 8.55.48 PM
+
+3. 
