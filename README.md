@@ -1,6 +1,11 @@
 # AVDapp
 Audio / Video Files Decentralized Application
 
+## Setup Environment
+1. Install Docker Engine (https://www.youtube.com/watch?v=aqBG4YW2ddo)
+2. Install Docker Compose (https://docs.docker.com/compose/install/)
+3. Install Git (https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+
 ## Setup Docker Client
 ### Linux / MacOS
 * Download and start
